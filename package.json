@@ -1,0 +1,37 @@
+{
+  "name": "now-telegram-bot",
+  "version": "1.0.0",
+  "description": "Basic Telegram bot running on now.sh",
+  "author": "Martín M.",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "firebase": "^7.7.0",
+    "fs": "^0.0.1-security",
+    "next": "^9.2.1",
+    "node-rest-client": "^3.1.0",
+    "node-telegram-bot-api": "^0.40.0",
+    "now": "^16.7.3",
+    "open-graph-scraper": "^3.6.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-config-wesbos": "0.0.19",
+    "eslint-plugin-html": "^5.0.3",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "fs": "^0.0.1-security",
+    "prettier": "^1.17.0"
+  }
+}

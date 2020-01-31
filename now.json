@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "bot.js", "use": "@now/node" }
+  ],
+  "routes": [
+    { "src": "/bot(.*)", "dest": "/bot.js", "methods": ["POST"] },
+    { "src": "/register(.*)", "dest": "/bot.js", "methods": ["GET"] },
+    {
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+        "Access-Control-Allow-Headers": "X-Requested-With, Content-Type, Accept"
+      },
+      "src": "/(.*)",
+      "dest": "bot.js"
+    }
+  ],
+  "env": {
+    "TELEGRAM_BOT_TOKEN": "@telegram_bot_token",
+    "TELEGRAM_BOT_URL": "@telegram_bot_url"
+  }
+}
