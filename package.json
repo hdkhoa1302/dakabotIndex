@@ -11,7 +11,7 @@
     "express": "^4.16.4",
     "firebase": "^7.7.0",
     "fs": "^0.0.1-security",
-    "next": "^9.2.1",
+    "next": "^9.3.2",
     "node-rest-client": "^3.1.0",
     "node-telegram-bot-api": "^0.40.0",
     "now": "^16.7.3",
